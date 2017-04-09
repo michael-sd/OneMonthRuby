@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
+	</head>
+		<body>
+			<center><div class="jumbotron center">
+				<h1><%= @greeting %></h1>
+					<p class="text-center">Enter Current Location</p>
+					<form action="/" method="POST" class="form-inline">
+						<div class="form-group">
+							<input type="text" name="location" class="form-control">
+						</div>
+						<input type="submit" class="btn btn-primary">
+					</form>
+			</div></center>		
+		</body>
+		<body>
+			<center>
+				<div class="container-fluid">
+				<h1><%= @output %></h1>
+			</center>		
+		</body>
+</html>	
